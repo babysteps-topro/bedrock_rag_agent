@@ -1,0 +1,31 @@
+class_code,class_name,description,category,duration,instructor,price
+101,Python Basics,"Introduction to Python programming for beginners.",Programming,8 hours,John Doe,199.99
+102,Advanced Python,"Deep dive into Python with advanced concepts and frameworks.",Programming,12 hours,Jane Smith,299.99
+103,Data Science with Python,"Learn data analysis, visualization, and machine learning using Python.",Data Science,20 hours,Alice Brown,399.99
+104,Web Development,"Full-stack web development with HTML, CSS, JavaScript, and Django.",Web Development,15 hours,Mark Johnson,349.99
+105,JavaScript Fundamentals,"Introduction to JavaScript for front-end development.",Web Development,10 hours,Sarah Lee,249.99
+106,React JS,"Learn React for building modern web applications.",Web Development,12 hours,Chris Evans,299.99
+107,Node.js,"Back-end development with Node.js and Express.",Web Development,10 hours,Emily Davis,279.99
+108,SQL for Beginners,"Introduction to SQL and database management.",Database,8 hours,Michael Clark,199.99
+109,Advanced SQL,"Advanced SQL techniques and optimization.",Database,12 hours,Laura Wilson,299.99
+110,Cloud Computing,"Introduction to cloud platforms like AWS and Azure.",Cloud Computing,10 hours,David Taylor,349.99
+111,AWS Certified Solutions Architect,"Prepare for the AWS Solutions Architect certification exam.",Cloud Computing,20 hours,Kevin Brown,499.99
+112,Machine Learning,"Introduction to machine learning algorithms and techniques.",Data Science,18 hours,Sophia Martinez,449.99
+113,Deep Learning,"Advanced machine learning with neural networks and TensorFlow.",Data Science,25 hours,Daniel Anderson,599.99
+114,Cybersecurity Basics,"Introduction to cybersecurity principles and practices.",Cybersecurity,10 hours,Olivia Garcia,299.99
+115,Ethical Hacking,"Learn ethical hacking techniques and tools.",Cybersecurity,15 hours,James Rodriguez,399.99
+116,DevOps Fundamentals,"Introduction to DevOps practices and tools.",DevOps,12 hours,Emma Hernandez,349.99
+117,Docker and Kubernetes,"Learn containerization and orchestration with Docker and Kubernetes.",DevOps,10 hours,William Martinez,299.99
+118,Agile Project Management,"Learn Agile methodologies for project management.",Project Management,8 hours,Isabella Lopez,249.99
+119,Scrum Master Certification,"Prepare for the Scrum Master certification exam.",Project Management,12 hours,Ethan Gonzalez,349.99
+120,UI/UX Design,"Introduction to user interface and user experience design.",Design,10 hours,Ava Perez,299.99
+121,Adobe Photoshop,"Learn photo editing and graphic design with Photoshop.",Design,8 hours,Noah Torres,199.99
+122,Adobe Illustrator,"Master vector graphics and illustration with Illustrator.",Design,10 hours,Mia Flores,249.99
+123,Digital Marketing,"Introduction to SEO, social media, and online advertising.",Marketing,12 hours,Lucas Rivera,299.99
+124,Content Marketing,"Learn content creation and strategy for digital marketing.",Marketing,10 hours,Amelia Gomez,249.99
+125,Financial Accounting,"Introduction to financial accounting principles.",Finance,12 hours,Benjamin Cruz,299.99
+126,Investment Basics,"Learn the fundamentals of investing and portfolio management.",Finance,10 hours,Charlotte Reyes,249.99
+127,Public Speaking,"Improve your public speaking and presentation skills.",Soft Skills,8 hours,Alexander Morales,199.99
+128,Leadership Skills,"Develop leadership and team management skills.",Soft Skills,10 hours,Harper Gutierrez,249.99
+129,Time Management,"Learn techniques for effective time management.",Soft Skills,6 hours,Daniela Vargas,149.99
+130,Emotional Intelligence,"Understand and improve emotional intelligence in the workplace.",Soft Skills,8 hours,Sebastian Rojas,199.99

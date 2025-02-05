@@ -1,0 +1,38 @@
+# SAM Project with REST API and Bedrock Agent Lambda Functions
+
+This project contains two AWS Lambda functions deployed through AWS SAM:
+1. A REST API Lambda function
+2. A Bedrock Agent Lambda function
+
+Both functions are accessible through a single API Gateway.
+
+## Project Structure
+```
+.
+├── README.md
+├── template.yaml
+└── src
+    ├── rest_api
+    │   ├── app.py
+    │   └── requirements.txt
+    └── bedrock_agent
+        ├── app.py
+        └── requirements.txt
+```
+
+## Deployment Instructions
+
+1. Build the SAM application:
+```bash
+sam build
+```
+
+2. Deploy the application:
+```bash
+sam deploy --guided
+```
+
+## API Endpoints
+
+- REST API: `https://{api-id}.execute-api.{region}.amazonaws.com/dev/api`
+- Bedrock Agent: `https://{api-id}.execute-api.{region}.amazonaws.com/dev/agent`

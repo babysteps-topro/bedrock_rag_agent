@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Globals:
+  Function:
+    Timeout: 30
+    Runtime: python3.13
+    MemorySize: 128
+  Api:
+    Cors:
+      AllowMethods: "'OPTIONS,POST,GET'"
+      AllowHeaders: "'*'"
+      AllowOrigin: "'*'"
+
+Resources:
+  ApiGateway:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: dev
+      
+  ChatApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/rest_api/
+      Handler: app.lambda_handler
+      Role: !Sub arn:aws:iam::${AWS::AccountId}:role/APP_LAMBDA_ROLE  
+      Events:
+        ChatApiFunction:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /chat
+            Method: POST
+
+  BedrockAgentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/bedrock_agent/
+      Handler: app.lambda_handler
+      Role: !Sub arn:aws:iam::${AWS::AccountId}:role/APP_LAMBDA_ROLE
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint URL
+    Value: !Sub "https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/dev"

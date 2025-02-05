@@ -1,0 +1,40 @@
+---
+openapi: 3.0.0
+info:
+  title: Training School Course Assistant - Training Courses status and information
+  version: 1.0.0
+  description: API for determining the status and information of a specific course enquired based on course code 
+paths:
+  "/courseAsistant":
+    get:
+      summary: Get a specific course with information and status
+      description: Get a specific course with information and status
+      operationId: getCourseInfoStatus
+      parameters:
+      - name : class_code
+        in: path
+        description: The class code of the course that the customer looking for class status and information
+        required: true
+        schema:
+          type: int
+      responses:
+        '200':
+          description: Successful response containing the course status and information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  class_code:
+                    type: string
+                    description: The class code of the course that the customer looking for class status and information
+                  capacity:
+                    type: int
+                    description: The capacity of the course that the customer looking for class status and information 
+                  current_students:
+                    type: string
+                    description: The number of students currently enrolled in the course that the customer looking for class status and information
+                  Status:
+                    type: string
+                    description: The status of the course that the customer looking for class status and information (i.e. FULL or still OPEN for registration)
+
