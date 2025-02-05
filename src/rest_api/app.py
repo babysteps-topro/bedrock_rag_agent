@@ -7,8 +7,8 @@ from typing import Dict, Any
 bedrock_agent_runtime = boto3.client('bedrock-agent-runtime')
 
 # Get from environment variables
-AGENT_ID = "KB3J5KCOEU"
-AGENT_ALIAS_ID = "VXUN0ZLMVS"
+AGENT_ID = "YOUR_AGENT_ID"
+AGENT_ALIAS_ID = "YOUR_AGENT_ALIAS_ID"
 
 
 def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
