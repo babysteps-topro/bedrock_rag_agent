@@ -33,6 +33,7 @@ def lambda_handler(event, context):
                 'responseBody': response_body
             }
         else:
+
             response_body = {
                 'application/json': {
                     'body': f'No course found with class code: {class_code}'
@@ -55,6 +56,7 @@ def lambda_handler(event, context):
 
     except KeyError as ke:
         print(f"KeyError: {str(ke)}")
+
         response_body = {
             'application/json': {
                 'body': 'Invalid event structure or missing parameter'
@@ -76,6 +78,7 @@ def lambda_handler(event, context):
 
     except Exception as e:
         print(f"Error: {str(e)}")
+
         response_body = {
             'application/json': {
                 'body': 'An unexpected error occurred'
