@@ -8,7 +8,7 @@ bedrock_agent_runtime = boto3.client('bedrock-agent-runtime')
 
 # Get from environment variables
 AGENT_ID = "YOUR_AGENT_ID"
-AGENT_ALIAS_ID = "YOUR_AGENT_ALIAS_ID"
+AGENT_ALIAS_ID = "YOUR_ALIAS_ID"
 
 
 def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
@@ -38,6 +38,9 @@ def handle_agent_request(body: Dict[str, Any]) -> Dict[str, Any]:
 
         # Get or create session ID
         session_id = body.get('session_id', str(uuid.uuid4()))
+
+
+
 
         # Validate environment variables
         if not AGENT_ID or not AGENT_ALIAS_ID:
