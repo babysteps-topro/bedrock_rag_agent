@@ -2,9 +2,9 @@
 This is a sample project of implement a training center chatbot asistant using Amazon Bedrock, Pinecone and React JS.
 ![borislam.com](https://blog.bbsteps.net/blogimg/bedrock-kb-agent.jpg)
 
-[Detail Instructions for this tuturial: PART 1](https://www.borislam.com/2025/01/bedrock-rag-pinecone.html)
+[Detail Instructions for this tutorial: PART 1](https://www.borislam.com/2025/01/bedrock-rag-pinecone.html)
 
-[Detail Instructions for this tuturial: PART 2](https://www.borislam.com/2025/01/bedrock-react-lambda.html)
+[Detail Instructions for this tutorial: PART 2](https://www.borislam.com/2025/01/bedrock-react-lambda.html)
 
 
 
