@@ -1,8 +1,10 @@
 # SAM Project with REST API and Bedrock Agent Lambda Functions
+This is a sample project of implement a training center chatbot asistant using Amazon Bedrock, Pinecone and React JS.
+![borislam.com](https://blog.bbsteps.net/blogimg/bedrock-kb-agent.jpg)
 
-This is a sample project of implement a training center chatbot asistant using Amazon Bedrock, pinecone and React JS
+[Detail Instructions for this tuturial: PART 1](https://www.borislam.com/2025/01/bedrock-rag-pinecone.html)
 
-[Detail Instruction for the tuturial PART 1](https://www.borislam.com/2025/01/bedrock-rag-pinecone.html)
+[Detail Instructions for this tuturial: PART 2](https://www.borislam.com/2025/01/bedrock-react-lambda.html)
 
 
 
